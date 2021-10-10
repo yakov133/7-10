@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button type="button" onclick="loadDoc()">get posts!!</button><br><br>
+
+    <label for="city">Enter city</label>
+    <input type="text" id="city">
+
+    <button type="button" onclick="tempetur()">get Temputre</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <label for="latitude">Enter latitude:</label>
+    <input type="text" id="latitude">
+    <br>
+
+    <label for="longitude">Enter longitude:</label>
+    <input type="text" id="longitude">
+    <br><br>
+    <button type="button" onclick="tempeturCoordinates()">get Coordinates Temputre</button>
+
+
+    <p id="latitude2"></p>
+    <p id="longitude2"></p>
+    <button type="button" onclick="show()">get Coordinates Temputre Auto</button>
+    <!-- <button type="button" id="get-location">get Coordinates Temputre Auto</button> -->
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js" type="text/javascript"></script>
+</body>
+
+</html>
